@@ -1,0 +1,76 @@
+@media only screen and (max-width: 696px) {
+  .move-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+  }
+ 
+ }
+
+ @media only screen and (max-width: 527px) {
+  .move-top{
+    display: grid;
+    grid-template-areas: "one"
+    "twom"
+    "three"
+    "five"
+    "six";
+    justify-content: center;
+    grid-row-gap: 10px ;
+    margin: auto;
+  }
+    .im{
+      width: 100px;
+      height: 100px;
+    }
+    .ima{
+      width: 150px;
+      height:100px ;
+    }
+    .text-btw{
+      margin: auto;
+      text-align: center;
+    }
+    .floor-t{
+      width: 250px;
+    }
+    .three{
+      display: none;
+    }
+    
+ }
+
+ @media only screen and (max-width: 528px) {
+  .imgone{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+  }
+ 
+ }
+
+
+ @media only screen and (max-width: 880px) {
+  .center-one-footer{
+    display: grid;
+    grid-template-columns: auto ;
+    justify-content: space-around;
+    grid-column-gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+ 
+ }
+
+ @media only screen and (max-width: 500px) {
+  input[type="text"]{
+    width: 250%;
+  }
+ 
+ }
